@@ -2,7 +2,7 @@
 validate uptime of node and pinned content
 
 # we will use to 
-https://github.com/ipfs-shipyard/py-ipfs-http-client
+https://github.com/AudiusProject/py-ipfs-api.git
 
 
 
@@ -26,3 +26,12 @@ source ./Scripts/activate
 
 # Branching strategy
 git flow init
+
+# 
+every node validators will ramdomly select CIS's and peer ID from public json (published by lambda)
+
+and verify node's availability and content PIN status and record in orbitdb.
+
+
+every node validator/pin 
+
