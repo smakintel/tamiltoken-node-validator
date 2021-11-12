@@ -22,3 +22,7 @@ source ./Scripts/activate
 /c/Python38/Scripts/pip install -r requirements.txt
 
 /c/Python38/python app.py
+
+
+# Branching strategy
+git flow init
